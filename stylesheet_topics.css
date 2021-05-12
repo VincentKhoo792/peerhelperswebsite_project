@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}  
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    z-index: 2;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.top-div {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.Academic_background_top-div {
+    height: auto;
+    width: auto;
+    z-index: 0;
+    border-bottom: 35px solid #C4C4C4;
+}
+
+.title-and-description {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    top: 200px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    z-index: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px; 
+}
+
+dl {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+section p {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#footer {
+    position: relative;
+    top: 180px;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-h1 {
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.prs-style {
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.slogan-style {
+    font-size: 2em;
+    margin-top: 10%;
+    padding-left: 10px;
+}
+
+.ourmission-child {
+    margin-top: 1%;
+    overflow: hidden;
+    width: 200px;
+    height: 180px;
+}
+
+.events-child {
+    margin-top: 1%;
+}
+
+.navigations-child {
+    margin-top: 1%;
+}
+
+.none-ul {
+    list-style-type: none;
+    color: #7DD4B5;
+}
+
+@media (min-width: 2000px) {
+    h2 {
+        font-size: 80px; 
+    }
+    
+    dl {
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+    }
+
+    section p {
+        font-size: 30px;
+    }
+}
+
+@media (max-height: 2000px) {
+    
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 35px; 
+    }
+    
+    dl {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+    }
+
+    section {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 19%
+    }
+}
+
+@media (max-width: 795px) {
+
+}
+
+#social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bottom-footer-p {
+    font-size: 25px;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 30px;
+}
+
+.yet-another-heading {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links {
+    color: #7DD4B5;
+}
