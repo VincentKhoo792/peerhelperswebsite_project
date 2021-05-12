@@ -23,7 +23,7 @@ h1 {
 }
 
 .top-div {
-    height: 400px;
+    height: auto;
     width: auto;
     overflow: hidden;
 }
@@ -33,6 +33,7 @@ h1 {
     width: auto;
     z-index: 0;
     border-bottom: 35px solid #C4C4C4;
+    margin-top: -1500px;
 }
 
 .title-and-description {
