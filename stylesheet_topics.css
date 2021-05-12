@@ -23,13 +23,13 @@ h1 {
 }
 
 .top-div {
-    height: auto;
+    height: 400px;
     width: auto;
     overflow: hidden;
 }
 
 .Academic_background_top-div {
-    height: 400px;
+    height: auto;
     width: auto;
     z-index: 0;
     border-bottom: 35px solid #C4C4C4;
